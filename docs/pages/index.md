@@ -4,29 +4,41 @@ permalink: /
 title: Home
 ---
 
-<section id="hero" class="section" style="text-align: center; padding-top: 100px;">
+<section id="hero" class="section">
   <div class="container">
-    <img id="fade-in-image" src="https://i.imgur.com/uyDNQnn.jpg" alt="Katie Townley" style="max-width: 200px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
-    <h1 class="title mt-4">Hello, I'm Katie Townley!</h1>
-    <p class="subtitle">Web Designer & Developer</p>
+    <div class="columns is-vcentered is-variable is-6 is-multiline">
+
+    <!-- Image Column -->
+      <div class="column is-4 has-text-centered">
+        <img id="fade-in-image" src="https://i.imgur.com/uyDNQnn.jpg" alt="Katie Townley"
+          style="max-width: 200px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
+      </div>
+
+
+      
+    <!-- Text Column -->
+      <div class="column is-8 has-text-centered-touch">
+        <h1 class="title mt-4">Hello, I'm Katie Townley!</h1>
+        <p class="subtitle">Web Designer & Developer</p>
+    
+        <p class="buttons is-centered mt-4">
+          <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
+            <i class="fab fa-linkedin fa-3x"></i>
+          </a>
+          
+          <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank" style="color: Tomato;">
+            <i class="fab fa-github fa-3x"></i>
+          </a>
+
+          <a class="button is-danger is-light" href="mailto:ktnoles@1791.com" style="color: Tomato;">
+            <i class="fas fa-envelope fa-3x"></i>
+          </a>
+          
+        </p>
+      </div>
+
+    </div>
   </div>
-
-<div style="text-align: center;">
-  <p>
-  <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
-    <i class="fab fa-linkedin fa-3x"></i>
-  </a>
-
-  <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank" style="color: Tomato;">
-    <i class="fab fa-github fa-3x"></i>
-  </a>
-
-  <a class="button is-danger is-light" href="mailto:ktnoles@1791.com" style="color: Tomato;">
-    <i class="fas fa-envelope fa-3x"></i>
-  </a>
-  </p>
-</div>
-
 </section>
 
 <script>
