@@ -4,6 +4,23 @@ permalink: /
 title: Home
 ---
 
+<section id="hero" class="section" style="text-align: center; padding-top: 100px;">
+  <div class="container">
+    <img id="fade-in-image" src="https://i.imgur.com/uyDNQnn.jpg" alt="Katie Townley" style="max-width: 200px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
+    <h1 class="title mt-4">Hi, I'm Katie Townley</h1>
+    <p class="subtitle">Web Designer & Developer</p>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const img = document.getElementById("fade-in-image");
+    setTimeout(() => {
+      img.style.opacity = 1;
+    }, 300); // delay before fade-in starts
+  });
+</script>
+
 <section id="home" class="section">
   <div class="container">
     <h1 class="title">Hi, I'm Katie Townley</h1>
