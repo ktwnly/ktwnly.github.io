@@ -13,16 +13,16 @@ title: Home
 
 <div style="text-align: center;">
   <p>
-  <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank">
-    <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
+  <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
+    <i class="fab fa-linkedin fa-3x"></i>
   </a>
 
-  <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank">
-    <i class="fab fa-github"></i>&nbsp; GitHub
+  <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank" style="color: Tomato;">
+    <i class="fab fa-github fa-3x"></i>
   </a>
 
-  <a class="button is-danger is-light" href="mailto:ktnoles@1791.com">
-    <i class="fas fa-envelope"></i>&nbsp; Email
+  <a class="button is-danger is-light" href="mailto:ktnoles@1791.com" style="color: Tomato;">
+    <i class="fas fa-envelope fa-3x"></i>
   </a>
   </p>
 </div>
@@ -37,17 +37,6 @@ title: Home
     }, 300); // delay before fade-in starts
   });
 </script>
-
-<section id="home" class="section">
-  <div class="container">
-
-     #<p>
-       #<a class="button" href="#about">About Me</a>
-       #<a class="button" href="#projects">Projects</a>
-       #<a class="button" href="#contact">Contact</a>
-     #</p>
-  </div>
-</section>
 
 <section id="about" class="section">
   <div class="container">
