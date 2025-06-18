@@ -7,9 +7,26 @@ title: Home
 <section id="hero" class="section" style="text-align: center; padding-top: 100px;">
   <div class="container">
     <img id="fade-in-image" src="https://i.imgur.com/uyDNQnn.jpg" alt="Katie Townley" style="max-width: 200px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
-    <h1 class="title mt-4">Hi, I'm Katie Townley</h1>
+    <h1 class="title mt-4">Hello, I'm Katie Townley!</h1>
     <p class="subtitle">Web Designer & Developer</p>
   </div>
+
+<div style="text-align: center;">
+  <p>
+  <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank">
+    <i class="fab fa-linkedin"></i>&nbsp; LinkedIn
+  </a>
+
+  <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank">
+    <i class="fab fa-github"></i>&nbsp; GitHub
+  </a>
+
+  <a class="button is-danger is-light" href="mailto:ktnoles@1791.com">
+    <i class="fas fa-envelope"></i>&nbsp; Email
+  </a>
+  </p>
+</div>
+
 </section>
 
 <script>
@@ -23,13 +40,12 @@ title: Home
 
 <section id="home" class="section">
   <div class="container">
-    <h1 class="title">Hi, I'm Katie Townley</h1>
-    <p class="subtitle">Web Designer & Developer</p>
-    <p>
-      <a class="button" href="#about">About Me</a>
-      <a class="button" href="#projects">Projects</a>
-      <a class="button" href="#contact">Contact</a>
-    </p>
+
+     #<p>
+       #<a class="button" href="#about">About Me</a>
+       #<a class="button" href="#projects">Projects</a>
+       #<a class="button" href="#contact">Contact</a>
+     #</p>
   </div>
 </section>
 
