@@ -6,10 +6,10 @@ title: Home
 
 <section id="hero" class="section">
   <div class="container">
-    <div class="columns is-vcentered is-multiline">
+    <div class="columns is-vcentered is-variable is-6 is-multiline">
 
     <!-- Image Column -->
-      <div class="column is-full-mobile is-5-tablet has-text-centered">
+      <div class="column is-full-mobile is-4-tablet has-text-centered">
         <img id="fade-in-image" src="https://i.imgur.com/uyDNQnn.jpg" alt="Katie Townley"
           style="max-width: 200px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
       </div>
@@ -17,7 +17,7 @@ title: Home
 
       
     <!-- Text Column -->
-      <div class="column is-full-mobile is-7-tablet has-text-centered-touch">
+      <div class="column is-full-mobile is-8-tablet has-text-centered-touch">
         <h1 class="title is-2">Hello, I'm Katie Townley!</h1>
         <p class="subtitle is-4">Web Designer & Developer</p>
     
