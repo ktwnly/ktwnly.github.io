@@ -35,7 +35,7 @@ navbar:
   - name: Contact
     link: "#contact"
 nav_exclude:
-  - blog/index.html
+  - _includes/blog
   - tags.html
 # - pages/tags.html
 # - pages/404.html
