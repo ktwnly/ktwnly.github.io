@@ -34,11 +34,14 @@ navbar:
     link: "#projects"
   - name: Contact
     link: "#contact"
-# nav_exclude:
+nav_exclude:
+  - blog.html
+  - tags.html
 # - pages/tags.html
 # - pages/404.html
 # - pages/index.md
 # - documentation/partials/**
+
 
 # Blog and Collections
 permalink: /blog/:title
