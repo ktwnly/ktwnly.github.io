@@ -18,7 +18,7 @@ title: Home
       
     <!-- Text Column -->
       <div class="column is-full-mobile is-8-tablet has-text-centered-touch">
-        <h1 class="title is-2">Hello, I'm Katie Townley!</h1>
+        <h1 class="title is-2">Hello, I'm Katie Townley!!!</h1>
         <p class="subtitle is-4">Web Designer & Developer</p>
     
         <p class="buttons is-centered mt-4">
