@@ -1,108 +1,83 @@
-### Site Settings ###
-title               : portfolYOU
-description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
-baseurl             : "/portfolYOU"            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : yousinix/portfolYOU      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
-open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
+# Main Site Settings
+title: Katie Townley
+description: >-
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: ""  # Empty if using ktwnly.github.io directly
+url: https://ktwnly.github.io
+repository: ktwnly/ktwnly.github.io
+remote_theme: yousinix/portfolYOU
+open_new_tab: false
 
+# Author Info
+author:
+  name: Katie Townley
+  image: https://i.imgur.com/uyDNQnn.jpg
+  email: ktnoles@1791.com
+  github: ktwnly
+  linkedin: katie-townley
+  twitter: your_username  # Update if you have a real handle
 
-### Plugins ###
+# Plugins
 plugins:
+  - jekyll-feed
   - jemoji
 
-
-### Navbar Settings ###
-nav_exclude:                                            # The following paths are excluded from navbar
+# Navbar Settings
+nav_exclude:
   - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
+  - documentation/partials/**
 
-
-### Author Info ###
-author:
-  name              : John Doe
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  behance           : your_username
-# dribbble          : your_username
-  email             : username@domain.com
-  facebook          : your_username
-  github            : your_username
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-  medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
-
-
-### Posts ###
+# Blog and Collections
 permalink: /blog/:title
 
-
-### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
+  elements:
+    output: true
 
-
-### Disqus ###
+# Comments (Disqus)
 disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+  shortname: your-short-name-disqus
 
-
-### Analytics ###
+# Analytics
 analytics:
-  enabled: false                                        # Set true to enable analytics
+  enabled: false
   google:
     tracking_id: your-google-tracking-id
 
-
-### Buy me a coffee ###
-# See https://www.buymeacoffee.com/
+# Buy Me a Coffee
 buymeacoffee:
   enabled: false
   username: your_username
   color: "#007bff"
-  message: "Thank you for visiting."                    # Message to be displayed aside from the button for a few seconds.
+  message: "Thank you for visiting."
   description: "Support me on Buy me a coffee!"
 
-
-### Defaults for collections ###
+# Defaults
 defaults:
   - scope:
       path: ""
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
+  - scope:
+      path: ""
+      type: "elements"
+    values:
+      layout: "element"
   - scope:
       path: ""
       type: "posts"
     values:
-      comments: false                                   # Set to true to enable disqus comments
+      comments: false
 
-
-### Exclude from processing ###
+# Exclude these files from build
 exclude:
   - README.md
   - CONTRIBUTING.md
