@@ -9,7 +9,7 @@ title: Home
     <div class="columns is-vcentered is-variable is-6 is-multiline padded-content">
 
       <!-- Text Column -->
-      <div class="column is-full-mobile is-6-tablet is-6-desktop has-text-left">
+      <div class="column is-full-mobile is-7-tablet is-7-desktop has-text-left">
         <h2 class="title is-1">Hello, I'm Katie Townley!</h2>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
@@ -30,7 +30,7 @@ title: Home
       </div>
 
       <!-- Image Column -->
-      <div class="column is-full-mobile is-6-tablet is-6-desktop has-text-centered" 
+      <div class="column is-full-mobile is-5-tablet is-5-desktop has-text-centered" 
            style="display: flex; justify-content: center; align-items: center;">
         <img id="fade-in-image" 
              src="/assets/images/website image.png" 
