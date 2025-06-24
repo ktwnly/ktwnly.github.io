@@ -15,17 +15,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.icon-button {
-  background-color: #f0e9ee !important; 
-  border: none !important;
-  box-shadow: none !important;
-  color: #db6676 !important;
+.button.icon-button {
+  background-color: transparent; 
+  border: none;
+  box-shadow: none;
+  color: #db6676;
   border-radius: 50%;
   padding: 0.5rem;
 
   &:hover {
-    background-color: transparent !important;
-    color: darkred !important;
+    background-color: transparent;
+    color: #f3a3a0;
   }
 }
 
