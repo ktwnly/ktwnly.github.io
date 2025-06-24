@@ -53,14 +53,14 @@ title: Home
 
 <section id="about" class="section">
   <div class="container">
-    <h2 class="title is-2">About Me</h2>
-    <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! <br/> <br/> Browse through some of my recent work below!</p>
+    <h2 class="title is-2">About Me &#10022;</h2>
+    <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! <br/> <br/> <strong>Browse through some of my recent work below!</strong></p>
   </div>
 </section>
 
 <section id="projects" class="section">
   <div class="container">
-    <h2 class="title is-2">Projects</h2>
+    <h2 class="title is-2">Projects &#10022;</h2>
     {% for project in site.projects %}
       <div class="box">
         <h3>{{ project.title }}</h3>
