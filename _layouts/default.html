@@ -16,7 +16,9 @@
     {% include navbar.html %}
     {{ content }}
   </main>
-  {% include footer.html %}
+  {%- comment -%}
+{% include footer.html %}
+{%- endcomment -%}
 
   {% include analytics.html %}
   {% include scripts.html %}
