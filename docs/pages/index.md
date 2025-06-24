@@ -8,15 +8,6 @@ title: Home
   <div class="container">
     <div class="columns is-vcentered is-variable is-6 is-multiline">
 
-    <!-- Image Column -->
-      <div class="column is-full-mobile is-4-tablet is-4-desktop has-text-centered" 
-           style="display: flex; justify-content: center; align-items: center;">
-        <img id="fade-in-image" 
-             src="/assets/images/website image.png" 
-             alt="Katie Townley"
-             style="max-width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
-      </div>
-
       <!-- Text Column -->
       <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered has-text-left-desktop">
         <h2 class="title is-1">Hello, I'm Katie Townley!</h2>
@@ -36,6 +27,15 @@ title: Home
           </a>
           
         </div>
+      </div>
+
+      <!-- Image Column -->
+      <div class="column is-full-mobile is-4-tablet is-4-desktop has-text-centered" 
+           style="display: flex; justify-content: center; align-items: center;">
+        <img id="fade-in-image" 
+             src="/assets/images/website image.png" 
+             alt="Katie Townley"
+             style="max-width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
       </div>
 
     </div>
