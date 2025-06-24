@@ -75,7 +75,7 @@ title: Home
 
 <section id="contact" class="section has-text-centered">
   <div class="container">
-    <p>Katie Townley's personal website & portfolio &#10022; Made with &hearts; using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &#10022; Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+    <p>Personal Website & Portfolio &#10022; Made with &hearts; using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &#10022; Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
     <p>&copy; 2025 Katie Townley. All rights reserved.</p>
   </div>
 </section>
