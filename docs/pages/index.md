@@ -23,15 +23,15 @@ title: Home
         <p class="subtitle is-4">Web Designer & Developer</p>
 
         <div class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop is-flex">
-          <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
+          <a class="button is-link is-white" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#3F5178;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
 
-          <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank" style="color: Tomato;">
+          <a class="button is-dark is-white" href="https://github.com/ktwnly" target="_blank" style="color:#3F5178;">
             <i class="fab fa-github fa-3x"></i>
           </a>
 
-          <a class="button is-danger is-light" href="mailto:ktnoles@1791.com" style="color: Tomato;">
+          <a class="button is-danger is-white" href="mailto:ktnoles@1791.com" style="color:#3F5178;">
             <i class="fas fa-envelope fa-3x"></i>
           </a>
           
