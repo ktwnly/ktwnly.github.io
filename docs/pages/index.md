@@ -79,5 +79,3 @@ title: Home
   </div>
 </section>
 
-
-{# {% include landing.html %} #} <!-- Liquid comment -->
