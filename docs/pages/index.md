@@ -80,4 +80,4 @@ title: Home
 </section>
 
 
-{% include landing.html %}
+{# {% include landing.html %} #} <!-- Liquid comment -->
