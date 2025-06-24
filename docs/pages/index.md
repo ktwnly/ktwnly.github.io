@@ -23,15 +23,15 @@ title: Home
         <p class="subtitle is-4">Web Designer & Developer</p>
 
         <div class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop is-flex">
-          <a class="button is-white is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#db6766;">
+          <a class="button icon-button" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#db6766;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
 
-          <a class="button is-white is-light" href="https://github.com/ktwnly" target="_blank" style="color:#db6766;">
+          <a class="button icon-button" href="https://github.com/ktwnly" target="_blank" style="color:#db6766;">
             <i class="fab fa-github fa-3x"></i>
           </a>
 
-          <a class="button is-white is-light" href="mailto:ktnoles@1791.com" style="color:#db6766;">
+          <a class="button icon-button" href="mailto:ktnoles@1791.com" style="color:#db6766;">
             <i class="fas fa-envelope fa-3x"></i>
           </a>
           
@@ -54,7 +54,7 @@ title: Home
 <section id="about" class="section">
   <div class="container">
     <h2 class="title is-2">About Me</h2>
-    <p>I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! Browse through some of my recent work below!</p>
+    <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! <br/> <br/> Browse through some of my recent work below!</p>
   </div>
 </section>
 
@@ -74,7 +74,7 @@ title: Home
 <section id="contact" class="section">
   <div class="container">
     <h2 class="title is-2">Contact</h2>
-    <p>Feel free to reach out to me through any of the following channels! Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
+    <p class="subtitle is-4">Feel free to reach out to me through any of the following channels! Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
     <!-- Optionally add social icons or a contact form -->
   </div>
 </section>
