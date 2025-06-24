@@ -18,11 +18,11 @@ title: Home
       </div>
 
       <!-- Text Column -->
-      <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered-touch">
+      <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered has-text-left-desktop">
         <h1 class="title is-2">Hello, I'm Katie Townley!</h1>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
-        <p class="buttons is-centered mt-4">
+        <p class="buttons mt-4">
           <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
