@@ -43,6 +43,16 @@ a,
   justify-content: center; 
 } 
 
+a {
+  text-decoration: underline;
+}
+
+.button.icon-button,
+.navbar a {
+  text-decoration: none !important;
+}
+
+
 #hero .container,
 #about .container,
 #projects .container,
