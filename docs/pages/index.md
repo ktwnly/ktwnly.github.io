@@ -54,7 +54,7 @@ title: Home
 <section id="about" class="section">
   <div class="container">
     <h2 class="title is-2">About Me</h2>
-    <p>Write a short, warm bio here — who you are, what you do, and what you love creating.</p>
+    <p>I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! Browse through some of my recent work below!</p>
   </div>
 </section>
 
@@ -74,7 +74,7 @@ title: Home
 <section id="contact" class="section">
   <div class="container">
     <h2 class="title is-2">Contact</h2>
-    <p>Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
+    <p>Feel free to reach out to me through any of the following channels! Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
     <!-- Optionally add social icons or a contact form -->
   </div>
 </section>
