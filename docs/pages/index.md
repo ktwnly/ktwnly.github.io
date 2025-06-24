@@ -19,7 +19,7 @@ title: Home
 
       <!-- Text Column -->
       <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered has-text-left-desktop">
-        <h1 class="title is-1">Hello, I'm Katie Townley!</h1>
+        <h2 class="title is-1">Hello, I'm Katie Townley!</h2>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
         <div class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop is-flex">
@@ -53,14 +53,14 @@ title: Home
 
 <section id="about" class="section">
   <div class="container">
-    <h1 class="title is-3">About Me</h6>
+    <h2 class="title is-2">About Me</h2>
     <p>Write a short, warm bio here — who you are, what you do, and what you love creating.</p>
   </div>
 </section>
 
 <section id="projects" class="section">
   <div class="container">
-    <h2 class="title is-3">Projects</h2>
+    <h2 class="title is-2">Projects</h2>
     {% for project in site.projects %}
       <div class="box">
         <h3>{{ project.title }}</h3>
@@ -73,7 +73,7 @@ title: Home
 
 <section id="contact" class="section">
   <div class="container">
-    <h1 class="title is-2">Contact</h2>
+    <h2 class="title is-2">Contact</h2>
     <p>Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
     <!-- Optionally add social icons or a contact form -->
   </div>
