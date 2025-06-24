@@ -6,7 +6,7 @@ title: Home
 
 <section id="hero" class="section no-x-padding">
   <div class="container wide">
-    <div class="columns is-vcentered is-variable is-6 is-multiline">
+    <div class="columns is-vcentered is-variable is-6 is-multiline padded-content">
 
       <!-- Text Column -->
       <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-left">
@@ -52,13 +52,13 @@ title: Home
 </script>
 
 <section id="about" class="section no-x-padding">
-  <div class="container wide">
+  <div class="container wide padded-content">
     <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! <br/> <br/> <strong style="color:#1B3850">Browse through some of my recent work below!</strong></p>
   </div>
 </section>
 
 <section id="projects" class="section no-x-padding">
-  <div class="container wide">
+  <div class="container wide padded-content">
     <h2 class="title is-2">Projects &#10022;</h2>
     {% for project in site.projects %}
       <div class="box">
@@ -73,7 +73,7 @@ title: Home
 
 
 <section id="contact" class="section no-x-padding has-text-centered">
-  <div class="container wide">
+  <div class="container wide padded-content">
     <p>Personal Website & Portfolio &#10022; Made with &hearts; using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &#10022; Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
     <p>&copy; 2025 Katie Townley. All rights reserved.</p>
   </div>
