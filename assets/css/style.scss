@@ -16,6 +16,17 @@ h1, h2, h3, h4, h5, h6 {
   color: #1B3850 !important;
 }
 
+p,
+li,
+span,
+a,
+.section,
+.container,
+.column {
+  color: inherit !important;
+}
+
+
 #hero     { background-color: #fef6f0; } 
 #about    { background-color: #fce6e2; } 
 #projects { background-color: #f7c9c5; } 
