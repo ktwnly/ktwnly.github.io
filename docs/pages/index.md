@@ -9,23 +9,24 @@ title: Home
     <div class="columns is-vcentered is-variable is-6 is-multiline">
 
     <!-- Image Column -->
-      <div class="column is-full-mobile is-4-tablet has-text-centered" style="display: flex; justify-content: center; align-items: center; margin-right: 2rem;">
-        <img id="fade-in-image" src="/assets/images/website image.png" alt="Katie Townley"
-          style="max-width: 400px; max-height: 400px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
+      <div class="column is-full-mobile is-4-tablet is-4-desktop has-text-centered" 
+           style="display: flex; justify-content: center; align-items: center;">
+        <img id="fade-in-image" 
+             src="/assets/images/website image.png" 
+             alt="Katie Townley"
+             style="max-width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
       </div>
 
-
-      
-    <!-- Text Column -->
-      <div class="column is-full-mobile is-8-tablet has-text-centered-touch">
+      <!-- Text Column -->
+      <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered-touch">
         <h1 class="title is-2">Hello, I'm Katie Townley!</h1>
         <p class="subtitle is-4">Web Designer & Developer</p>
-    
+
         <p class="buttons is-centered mt-4">
           <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
-          
+
           <a class="button is-dark is-light" href="https://github.com/ktwnly" target="_blank" style="color: Tomato;">
             <i class="fab fa-github fa-3x"></i>
           </a>
