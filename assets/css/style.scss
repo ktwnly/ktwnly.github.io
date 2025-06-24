@@ -82,8 +82,16 @@ html {
 
 
 
-#hero     { background-color: #FFFBF8; } 
-#about    { background-color: #FFFBF8; } 
+#hero { 
+  background-color: #FFFBF8;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+#about { 
+  background-color: #FFFBF8; 
+} 
+
 #projects { 
   background-color: #FAE4DE; 
   padding-bottom: 6rem;
