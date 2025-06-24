@@ -10,7 +10,7 @@ title: Home
 
     <!-- Image Column -->
       <div class="column is-full-mobile is-4-tablet has-text-centered">
-        <img id="fade-in-image" src="https://imgur.com/a/KJhOFqA" alt="Katie Townley"
+        <img id="fade-in-image" src="/assets/images/website image.png" alt="Katie Townley"
           style="max-width: 400px; max-height: 400px; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
       </div>
 
