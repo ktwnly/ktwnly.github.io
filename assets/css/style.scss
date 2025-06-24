@@ -29,11 +29,15 @@ a,
 
 #hero     { background-color: #fef6f0; } 
 #about    { background-color: #fce6e2; } 
-#projects { background-color: #f7c9c5; } 
+#projects { 
+  background-color: #f7c9c5; 
+  padding-bottom: 6rem;
+} 
 
 #contact  { 
   background-color: #e7a3a6; 
-  min-height: 100vh; 
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
   display: flex;
   flex-direction: column;
   justify-content: center; 
