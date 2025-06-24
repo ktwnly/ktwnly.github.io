@@ -22,7 +22,7 @@ title: Home
         <h1 class="title is-2">Hello, I'm Katie Townley!</h1>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
-        <p class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop">
+        <div class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop">
           <a class="button is-link is-light" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color: Tomato;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
@@ -35,7 +35,7 @@ title: Home
             <i class="fas fa-envelope fa-3x"></i>
           </a>
           
-        </p>
+        </div>
       </div>
 
     </div>
