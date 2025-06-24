@@ -8,12 +8,17 @@ html {
 
 body {
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg,#CFEBFC, #E2CDDA);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
 }
+
+#hero     { background-color: #fef6f0; } 
+#about    { background-color: #fce6e2; } 
+#projects { background-color: #f7c9c5; } 
+#contact  { background-color: #e7a3a6; } 
+
 
 
 .button.icon-button {
