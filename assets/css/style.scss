@@ -5,3 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
+
+.navbar a[href="/blog/tags"],
+.navbar a[href="/projects"],
+.navbar a[href="/projects/"] {
+  display: none !important;
+}
