@@ -26,6 +26,21 @@ a,
   color: inherit !important;
 }
 
+.section {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.section .container {
+  max-width: 100%;
+  padding-left: 1rem;   
+  padding-right: 1rem;  
+}
+
+
+
+
+
 
 #hero     { background-color: #FFFBF8; } 
 #about    { background-color: #FFFBF8; } 
