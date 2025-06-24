@@ -16,12 +16,12 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .icon-button {
-  background-color: #f0e9ee; 
-  border: none;
-  box-shadow: none;
-  color: #db6676;
-  border-radius: 50%;
-  padding: 0.5rem;
+  background-color: #f0e9ee !important; 
+  border: none !important;
+  box-shadow: none !important;
+  color: #db6676 !important;
+  border-radius: 50% !important;
+  padding: 0.5rem !important;
 
   &:hover {
     background-color: transparent;
