@@ -9,11 +9,11 @@ title: Home
     <div class="columns is-vcentered is-variable is-6 is-multiline">
 
       <!-- Text Column -->
-      <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-centered has-text-left-desktop">
+      <div class="column is-full-mobile is-8-tablet is-8-desktop has-text-left">
         <h2 class="title is-1">Hello, I'm Katie Townley!</h2>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
-        <div class="buttons mt-4 is-justify-content-center is-justify-content-flex-start-desktop is-flex">
+        <div class="buttons mt-4 is-justify-content-flex-start is-flex">
           <a class="button icon-button" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#db6766;">
             <i class="fab fa-linkedin fa-3x"></i>
           </a>
