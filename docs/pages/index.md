@@ -71,11 +71,12 @@ title: Home
   </div>
 </section>
 
-<section id="contact" class="section">
+
+
+<section id="contact" class="section has-text-centered">
   <div class="container">
-    <h2 class="title is-2">Contact</h2>
-    <p class="subtitle is-4">Feel free to reach out to me through any of the following channels! Email me at <a href="mailto:ktnoles@1791.com">ktnoles@1791.com</a></p>
-    <!-- Optionally add social icons or a contact form -->
+    <p>Katie Townley's personal website & portfolio &#10022; Made with &hearts; using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &#10022; Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
+    <p>&copy; 2025 Katie Townley. All rights reserved.</p>
   </div>
 </section>
 
