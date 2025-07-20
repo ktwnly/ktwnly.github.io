@@ -30,7 +30,7 @@ title: Home
 
         <br/>
 
-        <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! You can find my resume <a href="https://jekyllrb.com" target="_blank" style="color: #db6766 !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850">Browse through some of my recent work below!</strong></p>
+        <p class="subtitle is-4">I'm a college Computer Science student who loves to design and develop coding projects in my free time, learning and absorbing crucial programming skills, as well as new languages, platforms, and frameworks, as I go. I also love creating art, listening to music, experiencing new things, and exploring interesting places! I am always looking to start a new programming project, and I especially enjoy building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850">Browse through some of my recent work below!</strong></p>
 
 
         
