@@ -10,7 +10,7 @@ title: Home
 
       <!-- Text Column -->
       <div class="column is-full-mobile is-7-tablet is-7-desktop has-text-left">
-        <h2 class="title is-1">Hello, I'm Katie Townley!</h2>
+        <h2 class="title is-1">Hello, I'm <span style="color: #db6766;">Katie Townley</span>!</h2>
         <p class="subtitle is-4">Web Designer & Developer</p>
 
         <div class="buttons mt-4 is-justify-content-flex-start is-flex">
