@@ -145,6 +145,17 @@ a {
 }
 
 
+#contact a {
+  text-decoration: underline !important;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #db6766; 
+}
+
+
+
 .navbar,
 .navbar a[href="/blog/tags"],
 .navbar a[href="/blog/"],
