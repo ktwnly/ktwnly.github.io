@@ -18,6 +18,16 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+#contact a {
+  text-decoration: underline !important;
+}
+
+#contact a:hover {
+  text-decoration: underline !important;
+  color: #db6766; 
+}
+
+
 
 p,
 li,
@@ -145,14 +155,6 @@ a {
 }
 
 
-#contact a {
-  text-decoration: underline !important;
-}
-
-#contact a:hover {
-  text-decoration: underline;
-  color: #db6766; 
-}
 
 
 
