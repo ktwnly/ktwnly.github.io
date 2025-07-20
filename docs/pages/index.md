@@ -30,7 +30,7 @@ title: Home
 
         <br/>
 
-        <p class="subtitle is-4">I'm a college Computer Science student who loves designing and developing coding projects in my free time, while learning new programming skills, languages, platforms, and frameworks along the way. I also enjoy creating art, listening to music, experiencing new things, and exploring interesting places! I'm always looking to start a new project, and I especially love building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850">Browse through some of my recent work below!</strong></p>
+        <p class="subtitle is-4">I'm a college Computer Science student who loves designing and developing coding projects in my free time, while learning new programming skills, languages, platforms, and frameworks along the way. I also enjoy creating art, listening to music, experiencing new things, and exploring interesting places! I'm always looking to start a new project, and I especially love building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850;">Browse through some of my recent work below!</strong></p>
 
 
         
@@ -71,7 +71,7 @@ title: Home
       </div>
     {% endfor %}
 
-    <p class="subtitle is-4"><br/>🚧<strong>Currently in the process of updating Projects section, thank you for your patience.</strong></p>
+    <p class="subtitle is-4"><br/>🚧<strong style="color:#1B3850;">Currently in the process of updating Projects section, thank you for your patience.</strong></p>
 
 
       
