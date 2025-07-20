@@ -70,6 +70,11 @@ title: Home
         <a href="{{ project.external_url }}" target="_blank">View Project</a>
       </div>
     {% endfor %}
+
+    <p class="subtitle is-4"><br/>🚧<strong>Currently in the process of updating Projects section, thank you for your patience.</strong></p>
+
+
+      
   </div>
   </div>
 </section>
