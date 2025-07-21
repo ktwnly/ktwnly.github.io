@@ -10,31 +10,36 @@ title: Home
 
       <!-- Text Column -->
       <div class="column is-full-mobile is-7-tablet is-7-desktop has-text-left">
-        <h2 class="title is-1">Hello, I'm <span style="color: #db6766 !important;">Katie Townley</span>!</h2>
-        <p class="subtitle is-4">Web Designer & Developer</p>
+        <div class="top-text">
+          <h2 class="title is-1">Hello, I'm <span style="color: #db6766 !important;">Katie Townley</span>!</h2>
+          <p class="subtitle is-4">Web Designer & Developer</p>
 
-        <div class="buttons mt-4 is-justify-content-flex-start is-flex">
-          <a class="button icon-button" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#db6766;">
-            <i class="fab fa-linkedin fa-3x"></i>
-          </a>
+          <div class="buttons mt-4 is-justify-content-flex-start is-flex">
+            <a class="button icon-button" href="https://www.linkedin.com/in/katie-townley/" target="_blank" style="color:#db6766;">
+              <i class="fab fa-linkedin fa-3x"></i>
+            </a>
 
-          <a class="button icon-button" href="https://github.com/ktwnly" target="_blank" style="color:#db6766;">
-            <i class="fab fa-github fa-3x"></i>
-          </a>
+            <a class="button icon-button" href="https://github.com/ktwnly" target="_blank" style="color:#db6766;">
+              <i class="fab fa-github fa-3x"></i>
+            </a>
 
-          <a class="button icon-button" href="mailto:ktnoles@1791.com" style="color:#db6766;">
-            <i class="fas fa-envelope fa-3x"></i>
-          </a>
+            <a class="button icon-button" href="mailto:ktnoles@1791.com" style="color:#db6766;">
+              <i class="fas fa-envelope fa-3x"></i>
+            </a>
           
+          </div>
         </div>
 
         <br/>
 
-        <p class="subtitle is-4">I'm a college Computer Science student who loves designing and developing coding projects in my free time, while learning new programming skills, languages, platforms, and frameworks along the way. I also enjoy creating art, listening to music, experiencing new things, and exploring interesting places! I'm always looking to start a new project, and I especially love building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850;">Browse through some of my recent work below!</strong></p>
-
-
-        
+      <div class="about-me">
+        <p class="subtitle is-4">
+          I'm a college Computer Science student who loves designing and developing coding projects in my free time, while learning new programming skills, languages, platforms, and frameworks along the way. I also enjoy creating art, listening to music, experiencing new things, and exploring interesting places! I'm always looking to start a new project, and I especially love building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.<br/> <br/> <br/> <strong style="color:#1B3850;">Browse through some of my recent work below!</strong></p>
       </div>
+      
+  </div>
+
+
 
       <!-- Image Column -->
       <div class="column is-full-mobile is-5-tablet is-5-desktop has-text-centered" 
