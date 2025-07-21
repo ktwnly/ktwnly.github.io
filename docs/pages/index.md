@@ -42,7 +42,7 @@ title: Home
         <img id="fade-in-image" 
              src="/assets/images/website image.png" 
              alt="Katie Townley"
-             style="max-width: 250px; width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
+             style="width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
       </div>
 
     </div>
