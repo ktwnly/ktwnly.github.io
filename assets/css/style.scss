@@ -50,11 +50,6 @@ a {
 }
 
 
-.about-me p + p {
-  margin-top: 2rem;
-}
-
-
 
 #hero { 
   background-color: #FFFBF8;
@@ -90,6 +85,16 @@ a {
   color: #FFFBF8 !important; 
 }
 
+
+
+.top-text {
+  margin-bottom: 1.5rem; 
+}
+
+
+.about-me p + p {
+  margin-top: 3.5rem;
+}
 
 
 .section.no-x-padding,
