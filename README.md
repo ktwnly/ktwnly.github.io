@@ -13,13 +13,13 @@ I'm Katie Townley, a Computer Science student specializing in web design and dev
 - **Built with:** Jekyll (static site generator)
 - **Hosted on:** GitHub Pages
 - **Languages:** HTML, CSS (with portfolYOU import), Liquid templating
-- **Purpose:** To present Katie’s projects, resume, and web development/design skills professionally.
+- **Purpose:** To present my projects, resume, and web development/design skills professionally.
 
 ---
 
 ## Features
 
-- **Hero section** introducing Katie with social links (LinkedIn, GitHub, Email)
+- **Hero section** introducing myself with social links (LinkedIn, GitHub, Email)
 - **About section** with a personal description and resume link
 - **Projects section** dynamically populated via Jekyll collections
 - **Contact footer** with site and hosting attribution
@@ -29,7 +29,7 @@ I'm Katie Townley, a Computer Science student specializing in web design and dev
 
 ## Key Files
 
-- **index.md:** Main homepage content using the `default` layout
+- **index.md:** Main homepage content using the default layout
 - **style.css:** Custom styles overriding or extending portfolYOU defaults
 - **assets/images/**: Contains main image, my resume PDF, and other site visuals
 - **_layouts/default.html:** Defines the base HTML structure
@@ -43,8 +43,7 @@ This site is continuously refined to improve design, accessibility, and content.
 
 ## Credits
 
-Built by Katie Townley
-Made with ❤️ using Jekyll and hosted on GitHub Pages.
+Built by Katie Townley. Made with ❤️ using Jekyll and hosted on GitHub Pages.
 
 ## Copyright
 
