@@ -64,12 +64,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-body,
 p,
 li,
 span,
-a {
-  color: #1B3850;
+a,
+.section,
+.container,
+.column {
+  color: inherit !important;
 }
 
 
