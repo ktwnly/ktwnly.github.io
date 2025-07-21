@@ -1,7 +1,9 @@
 ---
 layout: default
 permalink: /
-title: Home
+title: Katie Townley Portfolio
+description: "I'm Katie Townley, a Computer Science student specializing in web design and development. View my portfolio and projects here."
+image: "/assets/images/website image.png"
 ---
 
 <section id="hero" class="section no-x-padding">
