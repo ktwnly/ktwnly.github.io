@@ -27,31 +27,19 @@ I'm Katie Townley, a Computer Science student specializing in web design and dev
 
 ---
 
-## File Structure (Key Files)
-
-├── _layouts/
-│ └── default.html
-├── assets/
-│ └── images/
-│ └── website image.png
-│ └── Katie Townley Resume.pdf
-├── index.md
-├── style.css
-└── _config.yml
-
+## Key Files
 
 - **index.md:** Main homepage content using the `default` layout
 - **style.css:** Custom styles overriding or extending portfolYOU defaults
-- **assets/images/**: Contains main hero image and other site visuals
+- **assets/images/**: Contains main image, my resume PDF, and other site visuals
 - **_layouts/default.html:** Defines the base HTML structure
+- **_config.yml** – Site configuration
 
 ---
-
 
 ## Ongoing Updates
 
 This site is continuously refined to improve design, accessibility, and content.
-  
 
 ## Credits
 
@@ -62,6 +50,5 @@ Made with ❤️ using Jekyll and hosted on GitHub Pages.
 
 All content and code in this repository are protected under copyright.  
 You may view it for personal reference only. Reproduction, distribution, or modification are prohibited without written permission.
-
 
 ---
