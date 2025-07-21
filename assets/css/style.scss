@@ -26,25 +26,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFBF8 !important; 
 }
 
-@media (max-width: 768px) {
-  #hero .columns.is-multiline {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #hero .top-text {
-    order: 1;
-  }
-
-  #hero .column.has-text-centered {
-    order: 2;  
-  }
-
-  #hero .about-me {
-    order: 3;
-  }
-}
-
 
 
 #fade-in-image {
@@ -82,17 +63,6 @@ html {
   overflow-x: hidden;
 }
 
-.section {
-  margin: 0;
-  padding-inline: 0;
-}
-
-.container {
-  max-width: 100%;
-  padding-inline: 0;
-  margin-left: 0;
-  margin-right: 0;
-}
 
 .section.no-x-padding,
 .section.no-x-padding .container,
