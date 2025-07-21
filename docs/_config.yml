@@ -25,15 +25,15 @@ plugins:
   - jemoji
 
 # Navbar Settings
-navbar:
-  - name: Home
-    link: "#home"
-  - name: About
-    link: "#about"
-  - name: Projects
-    link: "#projects"
-  - name: Contact
-    link: "#contact"
+# navbar:
+  # - name: Home
+    # link: "#home"
+  # - name: About
+    # link: "#about"
+  # - name: Projects
+    # link: "#projects"
+  # - name: Contact
+    # link: "#contact"
 nav_exclude:
   - _includes/blog
   - tags.html
