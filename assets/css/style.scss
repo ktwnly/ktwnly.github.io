@@ -27,6 +27,21 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFBF8 !important; 
 }
 
+#fade-in-image {
+  max-width: 40vw;         
+  min-width: 150px;        
+  width: 100%;             
+  height: auto;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+@media (min-width: 1024px) {
+  #fade-in-image {
+    max-width: 300px;      
+  }
+}
 
 
 p,
