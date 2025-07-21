@@ -7,7 +7,7 @@ image: "/assets/images/website image.png"
 ---
 
 <section id="hero" class="section no-x-padding">
-  <div class="container wide">
+  <div class="container wide no-x-padding">
     <div class="columns is-vcentered is-variable is-6 is-multiline padded-content">
 
       <!-- Text Column -->
@@ -67,7 +67,7 @@ image: "/assets/images/website image.png"
 
 
 <section id="projects" class="section no-x-padding">
-  <div class="container wide">
+  <div class="container wide no-x-padding">
     <div class="padded-content">
     <h2 class="title is-2">Projects &#10022;</h2>
     {% for project in site.projects %}
@@ -89,7 +89,7 @@ image: "/assets/images/website image.png"
 
 
 <section id="contact" class="section no-x-padding has-text-centered">
-  <div class="container wide padded-content">
+  <div class="container wide no-x-padding padded-content">
     <p>Personal Website & Portfolio &#10022; Made with &hearts; using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> &#10022; Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a></p>
     <p>&copy; 2025 Katie Townley. All rights reserved.</p>
   </div>
