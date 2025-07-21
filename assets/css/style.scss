@@ -87,12 +87,7 @@ html {
   padding-inline: 0;
 }
 
-.container,
-.section .container,
-#hero .container,
-#about .container,
-#projects .container,
-#contact .container {
+.container {
   max-width: 100%;
   padding-left: 0;   
   padding-right: 0;
