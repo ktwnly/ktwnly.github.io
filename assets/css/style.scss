@@ -71,7 +71,7 @@ a,
 .section,
 .container,
 .column {
-  color: inherit;
+  color: inherit !important;
 }
 
 
@@ -94,8 +94,8 @@ html {
 #about .container,
 #projects .container,
 #contact .container {
-  max-width: 100% !important;
-  padding-left: 0 !important;   
+  max-width: 100%;
+  padding-left: 0;   
   padding-right: 0;
   margin-left: 0;
   margin-right: 0;
