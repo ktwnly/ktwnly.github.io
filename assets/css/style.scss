@@ -13,18 +13,17 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: inherit;
+  color: #1B3850;
 }
 
 
 
 #contact a {
-  text-decoration: underline !important;
+  text-decoration: underline;
 }
 
 #contact a:hover {
-  text-decoration: underline !important;
-  color: #FFFBF8 !important; 
+  color: #FFFBF8; 
 }
 
 @media (max-width: 768px) {
