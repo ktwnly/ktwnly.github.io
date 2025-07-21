@@ -28,20 +28,20 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #hero .columns.is-multiline {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
   }
 
   #hero .top-text {
-    order: 1 !important;
+    order: 1;
   }
 
   #hero .column.has-text-centered {
-    order: 2 !important;  
+    order: 2;  
   }
 
   #hero .about-me {
-    order: 3 !important;
+    order: 3;
   }
 }
 
@@ -64,15 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-p,
-li,
-span,
-a,
-.section,
-.container,
-.column {
-  color: inherit !important;
-}
+
 
 body,
 html {
