@@ -2,48 +2,31 @@
 ---
 @import "portfolYOU";
 
+
+
 html {
   scroll-behavior: smooth;
 }
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 
 body {
   font-family: 'Inter', sans-serif;
   color: #1B3850;
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: #1B3850 !important;
 }
-
-
-
-#contact a {
-  text-decoration: underline;
-}
-
-#contact a:hover {
-  color: #FFFBF8 !important; 
-}
-
-
-
-#fade-in-image {
-  max-width: 45vw;         
-  min-width: 200px;        
-  width: 100%;             
-  height: auto;
-  border-radius: 50%;
-  opacity: 0;
-  transition: opacity 2s ease;
-}
-
-@media (min-width: 1024px) {
-  #fade-in-image {
-    max-width: 400px;      
-  }
-}
-
 
 p,
 li,
@@ -56,36 +39,15 @@ a,
 }
 
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+a {
+  text-decoration: underline;
 }
 
 
-.section.no-x-padding,
-.section.no-x-padding .container,
-.container.wide {
-  max-width: 100%;
-  padding-left: 0;   
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
+.button.icon-button,
+.navbar a {
+  text-decoration: none;
 }
-
-
-
-.no-x-padding {
-  padding-inline: 0;
-}
-
-.container.wide {
-  max-width: none;
-  padding-inline: 1rem;
-}
-
-
 
 
 
@@ -113,13 +75,61 @@ html {
   justify-content: center; 
 } 
 
-a {
+
+#contact a {
   text-decoration: underline;
 }
 
-.button.icon-button,
-.navbar a {
-  text-decoration: none;
+
+#contact a:hover {
+  color: #FFFBF8 !important; 
+}
+
+
+
+.section.no-x-padding,
+.section.no-x-padding .container,
+.container.wide {
+  max-width: 100%;
+  padding-left: 0;   
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.no-x-padding {
+  padding-inline: 0;
+}
+
+
+.container.wide {
+  max-width: none;
+  padding-inline: 1rem;
+}
+
+
+.padded-content {
+  padding-inline: 1.5rem;
+}
+
+
+
+#fade-in-image {
+  max-width: 45vw;         
+  min-width: 200px;        
+  width: 100%;             
+  height: auto;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+
+@media (min-width: 1024px) {
+  #fade-in-image {
+    max-width: 400px;      
+  }
 }
 
 
@@ -134,12 +144,9 @@ a {
   text-decoration: none;
 }
 
+
 .button.icon-button:hover {
     background-color: transparent;
     color: #f3a3a0 !important;
     text-decoration: none;
-}
-
-.padded-content {
-  padding-inline: 1.5rem;
 }
