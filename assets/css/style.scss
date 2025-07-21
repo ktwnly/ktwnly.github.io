@@ -1,69 +1,26 @@
----
----
 @import "portfolYOU";
+
+/* -------------------- */
+/* Base Styles          */
+/* -------------------- */
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
   font-family: 'Inter', sans-serif;
-  color: #1B3850 !important;
+  color: #1B3850;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #1B3850 !important;
+  color: #1B3850;
 }
-
-
-
-#contact a {
-  text-decoration: underline !important;
-}
-
-#contact a:hover {
-  text-decoration: underline !important;
-  color: #FFFBF8 !important; 
-}
-
-@media (max-width: 768px) {
-  #hero .columns.is-multiline {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-
-  #hero .top-text {
-    order: 1 !important;
-  }
-
-  #hero .column.has-text-centered {
-    order: 2 !important;  
-  }
-
-  #hero .about-me {
-    order: 3 !important;
-  }
-}
-
-
-
-#fade-in-image {
-  max-width: 45vw;         
-  min-width: 200px;        
-  width: 100%;             
-  height: auto;
-  border-radius: 50%;
-  opacity: 0;
-  transition: opacity 2s ease;
-}
-
-@media (min-width: 1024px) {
-  #fade-in-image {
-    max-width: 400px;      
-  }
-}
-
 
 p,
 li,
@@ -72,17 +29,15 @@ a,
 .section,
 .container,
 .column {
-  color: inherit !important;
+  color: inherit;
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
+/* -------------------- */
+/* Section & Layout     */
+/* -------------------- */
 
-.section {
+.section,
+.section.no-x-padding {
   margin: 0;
   padding-left: 0;
   padding-right: 0;
@@ -90,32 +45,16 @@ html {
 
 .container,
 .section .container,
+.container.wide,
 #hero .container,
 #about .container,
 #projects .container,
 #contact .container {
-  max-width: 100% !important;
-  padding-left: 0 !important;   
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.section.no-x-padding,
-.section.no-x-padding .container,
-.container.wide {
-  max-width: 100% !important;
-  padding-left: 0 !important;   
-  padding-right: 0 !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-
-
-.no-x-padding {
+  max-width: 100%;
   padding-left: 0;
   padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .container.wide {
@@ -124,60 +63,69 @@ html {
   padding-right: 1rem;
 }
 
-
-
-
-
-#hero { 
-  background-color: #FFFBF8;
-  margin-top: 0 !important;
-  padding-top: 2rem !important;
+.no-x-padding {
+  padding-left: 0;
+  padding-right: 0;
 }
 
-#about { 
-  background-color: #FFFBF8; 
-} 
+.padded-content {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
 
-#projects { 
-  background-color: #FAE4DE; 
+/* -------------------- */
+/* Sections             */
+/* -------------------- */
+
+#hero {
+  background-color: #FFFBF8;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+#about {
+  background-color: #FFFBF8;
+}
+
+#projects {
+  background-color: #FAE4DE;
   padding-bottom: 6rem;
-} 
+}
 
-#contact  { 
-  background-color: #E7A3A6; 
+#contact {
+  background-color: #E7A3A6;
   padding: 2rem 1rem;
   font-size: 0.9rem;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-} 
+  justify-content: center;
+}
+
+/* -------------------- */
+/* Links                */
+/* -------------------- */
 
 a {
   text-decoration: underline;
 }
 
-.button.icon-button,
-.navbar a {
-  text-decoration: none !important;
+#contact a {
+  text-decoration: underline;
 }
 
-
-#hero .container,
-#about .container,
-#projects .container,
-#contact .container {
-  padding-left: 0;
-  padding-right: 0;
-  max-width: none;
+#contact a:hover {
+  color: #FFFBF8;
 }
 
-
+/* -------------------- */
+/* Buttons & Icons      */
+/* -------------------- */
 
 .button.icon-button {
-  background-color: transparent; 
+  background-color: transparent;
   border: none;
   box-shadow: none;
-  color: #db6676 !important;
+  color: #db6676;
   border-radius: 50%;
   padding: 0.5rem;
   transition: color 0.3s ease;
@@ -185,14 +133,60 @@ a {
 }
 
 .button.icon-button:hover {
-    background-color: transparent;
-    color: #f3a3a0 !important;
-    text-decoration: none;
+  color: #f3a3a0;
+  text-decoration: none;
 }
 
+.navbar a {
+  text-decoration: none;
+}
 
+/* -------------------- */
+/* Image Animations     */
+/* -------------------- */
 
+#fade-in-image {
+  width: 100%;
+  max-width: 45vw;
+  min-width: 200px;
+  height: auto;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
 
+@media (min-width: 1024px) {
+  #fade-in-image {
+    max-width: 400px;
+  }
+}
+
+/* -------------------- */
+/* Responsive Hero      */
+/* -------------------- */
+
+@media (max-width: 768px) {
+  #hero .columns.is-multiline {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #hero .top-text {
+    order: 1;
+  }
+
+  #hero .column.has-text-centered {
+    order: 2;
+  }
+
+  #hero .about-me {
+    order: 3;
+  }
+}
+
+/* -------------------- */
+/* Navbar Overrides     */
+/* -------------------- */
 
 .navbar,
 .navbar a[href="/blog/tags"],
@@ -202,16 +196,9 @@ a {
 .navbar a[href="/elements/"],
 .navbar a[href="/docs/"],
 .navbar a[href="https://github.com/yousinix/portfolYOU"],
-
 .navbar a[href="/404.html"],
 .navbar a[href^="/docs/documentation/partials/"],
-
 .navbar a[href="/projects"],
 .navbar a[href="/projects/"] {
-  display: none !important;
-}
-
-.padded-content {
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  display: none;
 }
