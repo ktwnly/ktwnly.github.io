@@ -48,8 +48,7 @@ image: "/assets/images/website image.png"
            style="display: flex; justify-content: center; align-items: center;">
         <img id="fade-in-image" 
              src="/assets/images/website image.png" 
-             alt="Katie Townley"
-             style="width: 100%; height: auto; border-radius: 50%; opacity: 0; transition: opacity 2s ease;">
+             alt="Katie Townley">
       </div>
 
     </div>
