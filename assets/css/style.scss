@@ -89,8 +89,7 @@ html {
 
 .container {
   max-width: 100%;
-  padding-left: 0;   
-  padding-right: 0;
+  padding-inline: 0;
   margin-left: 0;
   margin-right: 0;
 }
@@ -152,16 +151,6 @@ a {
 .navbar a {
   text-decoration: none;
 }
-
-
-#hero .container,
-#about .container,
-#projects .container,
-#contact .container {
-  padding-inline: 0;
-  max-width: none;
-}
-
 
 
 .button.icon-button {
