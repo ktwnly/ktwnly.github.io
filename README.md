@@ -33,7 +33,7 @@ I'm Katie Townley, a Computer Science student specializing in web design and dev
 - **style.css:** Custom styles overriding or extending portfolYOU defaults
 - **assets/images/**: Contains main image, my resume PDF, and other site visuals
 - **_layouts/default.html:** Defines the base HTML structure
-- **_config.yml** – Site configuration
+- **_config.yml**: Site configuration
 
 ---
 
