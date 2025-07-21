@@ -28,20 +28,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 768px) {
-  #hero .columns {
-    flex-direction: column;
+  #hero .columns.is-multiline {
+    display: flex !important
+    flex-direction: column !important;
   }
 
   #hero .top-text {
-    order: 1;
+    order: 1 !important;
   }
 
   #hero .column.has-text-centered {
-    order: 2;  
+    order: 2 !important;  
   }
 
   #hero .about-me {
-    order: 3;
+    order: 3 !important;
   }
 }
 
