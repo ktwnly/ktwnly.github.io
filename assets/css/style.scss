@@ -204,10 +204,9 @@ a {
 
 .navbar a[href="/projects"],
 .navbar a[href="/projects/"] {
-  display: none !important;
+  display: none;
 }
 
 .padded-content {
-  padding-left: 1.5rem !important;
-  padding-right: 1.5rem !important;
+  padding-inline: 1.5rem;
 }
