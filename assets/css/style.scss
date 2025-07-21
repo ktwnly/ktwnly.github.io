@@ -27,6 +27,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFBF8 !important; 
 }
 
+@media (max-width: 768px) {
+  #hero .columns {
+    flex-direction: column;
+  }
+
+  #hero .top-text {
+    order: 1;
+  }
+
+  #hero .column.has-text-centered {
+    order: 2;  
+  }
+
+  #hero .about-me {
+    order: 3;
+  }
+}
+
+
+
 #fade-in-image {
   max-width: 45vw;         
   min-width: 200px;        
