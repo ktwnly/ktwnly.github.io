@@ -53,8 +53,8 @@ image: "/assets/images/website image.png"
       <div class="column is-full-mobile is-5-tablet is-5-desktop has-text-centered" 
            style="display: flex; justify-content: center; align-items: center;">
         <img id="fade-in-image" 
-             src="/assets/images/website image.png" 
-             alt="Abstract curved lines in a swirled pattern.">
+             src="/assets/images/softwarelogo.png" 
+             alt="Circle logo with text and 4 point star inside.">
       </div>
 
     </div>
