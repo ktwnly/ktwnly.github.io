@@ -37,6 +37,11 @@ image: "/assets/images/website image.png"
         <div class="about-me">
           <p class="subtitle is-4">
             I'm a college Computer Science student who loves designing and developing coding projects in my free time, while learning new programming skills, languages, platforms, and frameworks along the way. I also enjoy creating art, listening to music, experiencing new things, and exploring interesting places! I'm always looking to start a new project, and I especially love building websites! You can find my resume <a href="/assets/Katie Townley Resume.pdf" target="_blank" style="color: #db6766 !important; font-weight: bold !important;">here</a>.  
+
+
+<p>Projects found: {{ site.projects | size }}</p>
+
+            
           </p>
 
           <p class="subtitle is-4">
