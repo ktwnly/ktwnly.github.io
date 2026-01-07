@@ -7,19 +7,36 @@
 
       <!-- Front -->
       <div class="project-card-front">
+
+        <!-- Project Image -->
+        {% if project_img %}
+          <img src="{{ project_img }}" alt="{{ project_name }}" class="card-img-top">
+        {% endif %}
+
+        <!-- Project Title -->
         <h5 class="card-title">
           {{ project_name }}
         </h5>
 
+        <!-- Short Description -->
         <p class="card-text">
           {{ project.short_description | default: project_desc }}
         </p>
+
+        <!-- Tools / Tech Stack -->
+        {% if project_tools %}
+          <p class="project-tools">
+            {% for tool in project_tools %}
+              <span class="badge">{{ tool }}</span>
+            {% endfor %}
+          </p>
+        {% endif %}
+
       </div>
 
       <!-- Back -->
       <div class="project-card-back">
         <p class="card-text">{{ project_desc }}</p>
-
         <span class="view-project">View Project →</span>
       </div>
 
