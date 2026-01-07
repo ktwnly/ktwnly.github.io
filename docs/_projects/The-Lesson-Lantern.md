@@ -1,8 +1,8 @@
 ---
-name: The Movies Project
+name: The Lesson Lantern
 tools: [C#, XML, WPF]
 image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+description: 🚧 Currently updating this section and website — thank you for your patience.
 ---
 
 # The Movies Project
