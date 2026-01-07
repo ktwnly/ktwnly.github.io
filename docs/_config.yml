@@ -34,7 +34,7 @@ nav_exclude:
 # Blog
 permalink: /blog/:title
 
-# ✅ Collections (THIS IS THE IMPORTANT PART)
+# Collections
 collections:
   projects:
     output: false        # cards link externally, no project pages needed
