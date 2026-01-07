@@ -4,8 +4,11 @@ description: >-
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: ""  # Empty if using ktwnly.github.io directly
+
+# IMPORTANT for /docs builds
+baseurl: ""   # correct for ktwnly.github.io
 url: https://ktwnly.github.io
+
 repository: ktwnly/ktwnly.github.io
 remote_theme: yousinix/portfolYOU
 open_new_tab: false
@@ -17,77 +20,52 @@ author:
   email: ktnoles@1791.com
   github: ktwnly
   linkedin: katie-townley
-  twitter: your_username  # Update if you have a real handle
 
 # Plugins
 plugins:
   - jekyll-feed
   - jemoji
 
-# Navbar Settings
-# navbar:
-  # - name: Home
-    # link: "#home"
-  # - name: About
-    # link: "#about"
-  # - name: Projects
-    # link: "#projects"
-  # - name: Contact
-    # link: "#contact"
+# Navigation
 nav_exclude:
   - _includes/blog
   - tags.html
-# - pages/tags.html
-# - pages/404.html
-# - pages/index.md
-# - documentation/partials/**
 
-
-# Blog and Collections
+# Blog
 permalink: /blog/:title
 
+# ✅ Collections (THIS IS THE IMPORTANT PART)
 collections:
   projects:
-    output: true
-    permalink: /projects/:name
+    output: false        # cards link externally, no project pages needed
   elements:
     output: true
-
-# Comments (Disqus)
-disqus:
-  shortname: your-short-name-disqus
-
-# Analytics
-analytics:
-  enabled: false
-  google:
-    tracking_id: your-google-tracking-id
-
-# Buy Me a Coffee
-buymeacoffee:
-  enabled: false
-  username: your_username
-  color: "#007bff"
-  message: "Thank you for visiting."
-  description: "Support me on Buy me a coffee!"
 
 # Defaults
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: projects
     values:
-      layout: "page"
+      layout: null       # prevents Jekyll from forcing a page layout
   - scope:
       path: ""
-      type: "elements"
+      type: elements
     values:
-      layout: "element"
+      layout: element
   - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       comments: false
+
+# Comments
+disqus:
+  shortname: ""
+
+# Analytics
+analytics:
+  enabled: false
 
 # Exclude these files from build
 exclude:
