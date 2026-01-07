@@ -48,9 +48,9 @@ layout: default
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
     {%- assign project_img   = project.image -%}
-  
-    {%- assign project_name = project["name"] | default: project.name -%}
 
+    {%- assign project_name = project["name"] | default: project.name -%} 
+    {%- assign project_name = project_name | split: ' ' | map: "capitalize" | join: ' ' -%}
 
     {%- assign project_desc  = project.description -%}
     {%- assign project_tools = project.tools -%}
