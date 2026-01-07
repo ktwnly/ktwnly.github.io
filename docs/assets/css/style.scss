@@ -1,0 +1,230 @@
+---
+---
+@import "portfolYOU";
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #1B3850;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #1B3850 !important;
+}
+
+p,
+li,
+span,
+a,
+.section,
+.container,
+.column {
+  color: inherit !important;
+}
+
+
+a {
+  text-decoration: underline;
+}
+
+
+.button.icon-button,
+.navbar a {
+  text-decoration: none;
+}
+
+
+
+#hero { 
+  background-color: #FFFBF8;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+#about { 
+  background-color: #FFFBF8; 
+} 
+
+#projects { 
+  background-color: #FAE4DE; 
+  padding-bottom: 6rem;
+} 
+
+#contact  { 
+  background-color: #E7A3A6; 
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+} 
+
+
+#contact a {
+  text-decoration: underline;
+}
+
+
+#contact a:hover {
+  color: #FFFBF8 !important; 
+}
+
+
+
+.top-text {
+  margin-bottom: 1.5rem; 
+}
+
+
+.about-me p + p {
+  margin-top: 3.5rem;
+}
+
+
+.section.no-x-padding,
+.section.no-x-padding .container,
+.container.wide {
+  max-width: 100%;
+  padding-left: 0;   
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+
+.no-x-padding {
+  padding-inline: 0;
+}
+
+
+.container.wide {
+  max-width: none;
+  padding-inline: 1rem;
+}
+
+
+.padded-content {
+  padding-inline: 1.5rem;
+}
+
+
+
+#fade-in-image {
+  max-width: 45vw;         
+  min-width: 200px;        
+  width: 100%;             
+  height: auto;
+  border-radius: 50%;
+  opacity: 0;
+  transition: opacity 2s ease;
+}
+
+
+@media (min-width: 1024px) {
+  #fade-in-image {
+    max-width: 400px;      
+  }
+}
+
+
+.button.icon-button {
+  background-color: transparent; 
+  border: none;
+  box-shadow: none;
+  color: #db6676 !important;
+  border-radius: 50%;
+  padding: 0.5rem;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+
+.button.icon-button:hover {
+    background-color: transparent;
+    color: #f3a3a0 !important;
+    text-decoration: none;
+}
+
+
+
+/* ===== Projects Grid ===== */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* ===== Flip Card ===== */
+
+.project-card {
+  perspective: 1000px;
+  text-decoration: none;
+}
+
+.project-card-inner {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+}
+
+.project-card:hover .project-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front & Back Shared */
+.project-card-front,
+.project-card-back {
+  position: absolute;
+  inset: 0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Front */
+.project-card-front {
+  background-color: #FFFBF8;
+  text-align: center;
+}
+
+/* Back */
+.project-card-back {
+  background-color: #db6766;
+  color: #FFFBF8 !important;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+.project-card-back p {
+  margin-bottom: 1rem;
+}
+
+.view-project {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
