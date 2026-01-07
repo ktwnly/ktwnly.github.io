@@ -104,11 +104,7 @@ image: "/assets/images/website image.png"
         {% endfor %}
       </div>
 
-      <p class="subtitle is-4 mt-6">
-        🚧 <strong style="color:#1B3850;">
-          Currently updating Projects section — thank you for your patience.
-        </strong>
-      </p>
+      
     </div>
   </div>
 </section>
