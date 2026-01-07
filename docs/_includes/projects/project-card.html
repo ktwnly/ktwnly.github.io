@@ -1,0 +1,28 @@
+<div class="project-card wow animated fadeIn" data-wow-delay=".15s">
+  <a href="{{ project_url }}"
+     class="project-card-link"
+     {%- if external and site.open_new_tab -%} target="_blank" {%- endif -%}>
+
+    <div class="project-card-inner">
+
+      <!-- Front -->
+      <div class="project-card-front">
+        <h5 class="card-title">
+          {{ project_name }}
+        </h5>
+
+        <p class="card-text">
+          {{ project.short_description | default: project_desc }}
+        </p>
+      </div>
+
+      <!-- Back -->
+      <div class="project-card-back">
+        <p class="card-text">{{ project_desc }}</p>
+
+        <span class="view-project">View Project →</span>
+      </div>
+
+    </div>
+  </a>
+</div>
