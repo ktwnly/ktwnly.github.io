@@ -74,22 +74,45 @@ image: "/assets/images/website image.png"
 <section id="projects" class="section no-x-padding">
   <div class="container wide no-x-padding">
     <div class="padded-content">
-    <h2 class="title is-2">Projects &#10022;</h2>
-    {% for project in site.projects %}
-      <div class="box">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
-        <a href="{{ project.external_url }}" target="_blank">View Project</a>
+      <h2 class="title is-2">Projects &#10022;</h2>
+
+      <div class="projects-grid">
+        {% for project in site.projects %}
+          <a href="{{ project.external_url }}" 
+             class="project-card"
+             target="_blank"
+             aria-label="View {{ project.title }} project">
+
+            <div class="project-card-inner">
+
+              <!-- Front -->
+              <div class="project-card-front">
+                <h3 class="title is-4">{{ project.title }}</h3>
+                <p class="subtitle is-6">
+                  {{ project.short_description }}
+                </p>
+              </div>
+
+              <!-- Back -->
+              <div class="project-card-back">
+                <p>{{ project.description }}</p>
+                <span class="view-project">View Project →</span>
+              </div>
+
+            </div>
+          </a>
+        {% endfor %}
       </div>
-    {% endfor %}
 
-    <p class="subtitle is-4"><br/>🚧<strong style="color:#1B3850;">Currently in the process of updating Projects section, thank you for your patience.</strong></p>
-
-
-      
-  </div>
+      <p class="subtitle is-4 mt-6">
+        🚧 <strong style="color:#1B3850;">
+          Currently updating Projects section — thank you for your patience.
+        </strong>
+      </p>
+    </div>
   </div>
 </section>
+
 
 
 
